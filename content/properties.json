@@ -23,6 +23,14 @@
       "desc": "Idéal boutique ou bureau, forte visibilité.",
       "price": "Loyer sur demande",
       "photo": "/images/listings/local-commercial.jpg"
+    },
+    {
+      "type": "vente",
+      "title": "Maison 5 pièces — Quartier Almamya",
+      "desc": "aison familiale avec cour, à proximité du marché central.",
+      "price": "120 000 000 GNF",
+      "photo": "/images/listings/frames-for-your-heart-mr1cidduglc-unsplash.jpg",
+      "tag": "À vendre"
     }
   ]
 }
