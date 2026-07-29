@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "type": "location",
+      "tag": "À louer",
+      "title": "Villa 4 pièces — Wassako",
+      "desc": "Cour clôturée, proche axe principal.",
+      "price": "Loyer sur demande",
+      "photo": "/images/listings/villa-wassako.jpg"
+    },
+    {
+      "type": "vente",
+      "tag": "À vendre",
+      "title": "Parcelle titrée — 400 m²",
+      "desc": "Titre foncier vérifié, quartier résidentiel.",
+      "price": "Prix sur demande",
+      "photo": "/images/listings/parcelle-titree.jpg"
+    },
+    {
+      "type": "gestion",
+      "tag": "Gestion",
+      "title": "Local commercial — Centre-ville",
+      "desc": "Idéal boutique ou bureau, forte visibilité.",
+      "price": "Loyer sur demande",
+      "photo": "/images/listings/local-commercial.jpg"
+    }
+  ]
+}

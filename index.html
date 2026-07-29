@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KIG-SARLU — Kouroussa Immobilier Guinée</title>
+<meta name="description" content="KIG-SARLU accompagne propriétaires, familles et diaspora à Kouroussa : gestion locative transparente, vente sécurisée et conseil foncier de proximité.">
+<meta name="theme-color" content="#152A4D">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<meta property="og:title" content="KIG-SARLU — Kouroussa Immobilier Guinée">
+<meta property="og:description" content="La terre en confiance. Gestion locative, vente et conseil foncier à Kouroussa, Région de Kankan.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/og-image.jpg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <img class="brand-mark" src="/images/logo.png" alt="Logo KIG-SARLU">
+    <span class="brand-name">KOUROUSSA IMMOBILIER GUIN&Eacute;E</span>
+  </div>
+  <nav class="sans" id="mainNav">
+    <a href="#services">Services</a>
+    <a href="#biens">Biens</a>
+    <a href="#apropos">À propos</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="burger" id="burgerBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<section class="hero hero-photo" style="background-image:linear-gradient(120deg, rgba(21,42,77,0.82), rgba(21,42,77,0.55)), url('/images/hero.jpg');">
+  <div class="hero-inner">
+    <div class="eyebrow" style="color:#C9A227;">Kouroussa · Région de Kankan</div>
+    <h1 style="color:#F5F1E8;">La terre en confiance.</h1>
+    <p class="lede" style="color:#dfe3ec;">KIG-SARLU accompagne propriétaires, familles et diaspora à Kouroussa : gestion locative transparente, vente sécurisée, et conseil foncier de proximité.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#contact">Parler à un conseiller</a>
+      <a class="btn btn-secondary" style="border-color:#F5F1E8; color:#F5F1E8;" href="#services">Voir les services</a>
+    </div>
+  </div>
+</section>
+
+<div class="diamond-divider"><span></span><span></span><span></span><span></span><span></span></div>
+
+<section id="services">
+  <div class="section-title">Nos services</div>
+  <div class="section-sub sans">Du premier contact à la remise des clés — un accompagnement structuré à chaque étape.</div>
+  <div class="services">
+    <div class="service"><div class="num">01</div><h3>Gestion locative</h3><p>Recherche de locataire, encaissement des loyers, suivi de l'entretien, reporting régulier — idéal pour les propriétaires basés à l'étranger.</p></div>
+    <div class="service"><div class="num">02</div><h3>Vente &amp; courtage</h3><p>Estimation, vérification foncière systématique, mise en relation avec le notaire jusqu'à l'acte.</p></div>
+    <div class="service"><div class="num">03</div><h3>Promotion &amp; lotissement</h3><p>Montage d'opérations de construction et de lotissement, en fonds propres ou avec des investisseurs.</p></div>
+    <div class="service"><div class="num">04</div><h3>Conseil foncier</h3><p>Accompagnement administratif, vérification des titres, sécurisation des transactions.</p></div>
+  </div>
+</section>
+
+<section class="listings" id="biens">
+  <div class="section-title">Biens en vedette</div>
+  <div class="section-sub sans">Filtrez par type — le catalogue se met à jour au fil des mandats.</div>
+  <div class="filter-row sans">
+    <button class="filter-btn active" data-filter="tous">Tous</button>
+    <button class="filter-btn" data-filter="location">À louer</button>
+    <button class="filter-btn" data-filter="vente">À vendre</button>
+    <button class="filter-btn" data-filter="gestion">Gestion</button>
+  </div>
+  <div class="listing-grid" id="listingGrid"></div>
+</section>
+
+<section class="about" id="apropos">
+  <img class="about-photo" src="/images/about.jpg" alt="Équipe et bureau KIG-SARLU">
+  <div class="about-grid">
+    <div>
+      <div class="section-title" style="color:var(--coquille)">Le premier acteur structuré du marché de Kouroussa</div>
+      <p>Le marché immobilier de Kouroussa reste aujourd'hui largement informel. KIG-SARLU s'est donné pour mission d'y apporter la rigueur, la transparence et le sérieux d'un opérateur professionnel — en s'appuyant sur un réseau local solide : notaire partenaire, agents fonciers et notables de quartier.</p>
+      <p>Notre ambition : devenir, à horizon 5 ans, la référence immobilière de Haute-Guinée.</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">100%</div><div class="l">Vérification foncière systématique avant tout mandat</div></div>
+      <div class="stat"><div class="n">1ère</div><div class="l">Agence structurée à Kouroussa</div></div>
+      <div class="stat"><div class="n">3</div><div class="l">Partenaires locaux mobilisés dès le lancement</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="section-title">Questions fréquentes</div>
+  <div class="section-sub sans">Ce que nos clients nous demandent le plus souvent.</div>
+  <div class="faq sans">
+    <details class="faq-item">
+      <summary>Je vis à l'étranger, puis-je vous confier la gestion de mon bien à distance ?</summary>
+      <p>Oui, c'est même l'un de nos services prioritaires. Vous recevez un reporting régulier (loyers encaissés, état du bien, éventuels incidents), et tout encaissement vous est reversé selon les modalités convenues dans le mandat.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Comment vérifiez-vous qu'un terrain n'a pas de problème de titre ?</summary>
+      <p>Chaque bien fait l'objet d'une vérification foncière systématique avant tout mandat : nature du titre, identité du propriétaire, absence de litige connu auprès des notables du quartier, et validation par notre notaire partenaire.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Quels sont vos frais de commission ?</summary>
+      <p>8 à 10 % du loyer mensuel pour la gestion locative, et 3 à 5 % du prix de vente pour un courtage. Le détail exact vous est communiqué avant toute signature de mandat.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Intervenez-vous en dehors de Kouroussa ?</summary>
+      <p>Notre ancrage est à Kouroussa et sa région, mais nous étudions au cas par cas les demandes dans le reste de la région de Kankan (Kankan, Siguiri, Kérouané, Mandiana).</p>
+    </details>
+    <details class="faq-item">
+      <summary>Puis-je vous mandater pour trouver un bien à acheter, pas seulement à vendre ?</summary>
+      <p>Oui. Nous accompagnons aussi les acheteurs : recherche selon vos critères, vérification foncière avant toute proposition, et suivi jusqu'à l'acte notarié.</p>
+    </details>
+  </div>
+</section>
+
+<section class="locate">
+  <div class="section-title">Nous trouver</div>
+  <div class="section-sub sans">Passez au bureau ou contactez-nous avant de vous déplacer.</div>
+  <div class="locate-grid">
+    <div class="locate-info sans">
+      <img class="bureau-photo" src="/images/bureau.jpg" alt="Bureau KIG-SARLU">
+      <p><span class="label">Adresse</span><br>Quartier Wassako 1, Commune urbaine de Kouroussa, Région de Kankan, République de Guinée</p>
+      <p><span class="label">Horaires</span><br>Lundi – Samedi, 8h30 – 18h00</p>
+      <p><span class="label">Téléphone / WhatsApp</span><br>+224 628 62 56 63 · +224 620 98 76 64</p>
+      <p style="font-size:0.8rem; color:#888;">Localisation centrée sur Kouroussa à titre indicatif — à ajuster avec les coordonnées précises du bureau une fois disponibles.</p>
+    </div>
+    <iframe class="map-frame" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-9.9051%2C10.6389%2C-9.8651%2C10.6589&layer=mapnik&marker=10.6489%2C-9.8851">
+    </iframe>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Un bien à gérer, à vendre ou à acheter ?</h2>
+  <p>Remplissez le formulaire, ou passez directement au bureau de Kouroussa, quartier Wassako 1.</p>
+  <form class="contact-form sans" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/merci.html">
+    <input type="hidden" name="form-name" value="contact">
+    <p style="position:absolute; left:-9999px;" aria-hidden="true">
+      <label>Ne remplissez pas ce champ : <input name="bot-field"></label>
+    </p>
+    <div class="form-row">
+      <input type="text" name="name" id="cf-name" placeholder="Votre nom" required>
+      <input type="tel" name="phone" id="cf-phone" placeholder="Votre téléphone" required>
+    </div>
+    <select name="subject" id="cf-subject">
+      <option value="Gestion locative">Je veux confier un bien en gestion</option>
+      <option value="Vente">Je veux vendre un bien</option>
+      <option value="Achat/Location">Je cherche un bien à louer ou acheter</option>
+      <option value="Autre">Autre demande</option>
+    </select>
+    <textarea name="message" id="cf-message" rows="4" placeholder="Votre message"></textarea>
+    <div class="cta-row" style="justify-content:center;">
+      <button type="submit" class="btn btn-primary">Envoyer le message</button>
+      <button type="button" class="btn btn-secondary" id="sendWhatsapp">Envoyer sur WhatsApp</button>
+    </div>
+    <p class="sans form-status" id="formStatus" role="status"></p>
+  </form>
+</section>
+
+<footer>
+  <div class="sans" style="font-size:0.75rem; color:#999; margin-bottom:10px;">
+    Les informations transmises via ce formulaire ne servent qu'à traiter votre demande et ne sont jamais partagées avec des tiers.
+  </div>
+  © 2026 KOUROUSSA IMMOBILIER GUINÉE — KIG-SARLU · Quartier Wassako 1, Kouroussa, Région de Kankan, République de Guinée
+  <div class="social">
+    <a href="https://wa.me/224628625663" target="_blank">WhatsApp</a> ·
+    <a href="#" target="_blank">Facebook</a> ·
+    <a href="#" target="_blank">Google Business</a>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/224628625663" target="_blank" aria-label="WhatsApp">☎</a>
+
+<script src="/js/listings.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
