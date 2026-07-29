@@ -70,6 +70,29 @@
   <div class="listing-grid" id="listingGrid"></div>
 </section>
 
+<div class="listing-modal" id="listingModal" aria-hidden="true">
+  <div class="listing-modal-backdrop" id="listingModalBackdrop"></div>
+  <div class="listing-modal-content sans" role="dialog" aria-modal="true">
+    <button class="listing-modal-close" id="listingModalClose" aria-label="Fermer">&times;</button>
+    <div class="listing-modal-gallery">
+      <button class="gallery-nav prev" id="galleryPrev" aria-label="Photo précédente">&#8249;</button>
+      <img id="galleryImage" src="" alt="">
+      <button class="gallery-nav next" id="galleryNext" aria-label="Photo suivante">&#8250;</button>
+      <div class="gallery-count" id="galleryCount"></div>
+    </div>
+    <div class="listing-modal-body">
+      <span class="listing-tag" id="modalTag"></span>
+      <h3 id="modalTitle"></h3>
+      <div class="modal-specs" id="modalSpecs"></div>
+      <p id="modalDesc"></p>
+      <span class="listing-price" id="modalPrice"></span>
+      <div class="cta-row" style="margin-top:18px;">
+        <a class="btn btn-primary" id="modalWhatsapp" target="_blank" rel="noopener">Contacter sur WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <section class="about" id="apropos">
   <img class="about-photo" src="/images/about.jpg" alt="Équipe et bureau KIG-SARLU">
   <div class="about-grid">

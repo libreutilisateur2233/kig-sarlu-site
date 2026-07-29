@@ -6,7 +6,10 @@
       "title": "Villa 4 pièces — Wassako",
       "desc": "Cour clôturée, proche axe principal.",
       "price": "Loyer sur demande",
-      "photo": "/images/listings/villa-wassako.jpg"
+      "surface": "150 m²",
+      "chambres": "4",
+      "equipements": "Cour clôturée, eau courante, électricité",
+      "photos": ["/images/listings/villa-wassako.jpg"]
     },
     {
       "type": "vente",
@@ -14,7 +17,10 @@
       "title": "Parcelle titrée — 400 m²",
       "desc": "Titre foncier vérifié, quartier résidentiel.",
       "price": "Prix sur demande",
-      "photo": "/images/listings/parcelle-titree.jpg"
+      "surface": "400 m²",
+      "chambres": "",
+      "equipements": "Titre foncier vérifié",
+      "photos": ["/images/listings/parcelle-titree.jpg"]
     },
     {
       "type": "gestion",
@@ -22,15 +28,21 @@
       "title": "Local commercial — Centre-ville",
       "desc": "Idéal boutique ou bureau, forte visibilité.",
       "price": "Loyer sur demande",
-      "photo": "/images/listings/local-commercial.jpg"
+      "surface": "45 m²",
+      "chambres": "",
+      "equipements": "Forte visibilité, accès direct rue",
+      "photos": ["/images/listings/local-commercial.jpg"]
     },
     {
       "type": "vente",
+      "tag": "À vendre",
       "title": "Maison 5 pièces — Quartier Almamya",
-      "desc": "aison familiale avec cour, à proximité du marché central.",
+      "desc": "Maison familiale avec cour, à proximité du marché central.",
       "price": "120 000 000 GNF",
-      "photo": "/images/listings/frames-for-your-heart-mr1cidduglc-unsplash.jpg",
-      "tag": "À vendre"
+      "surface": "200 m²",
+      "chambres": "5",
+      "equipements": "Cour, proche marché central",
+      "photos": ["/images/listings/frames-for-your-heart-mr1cidduglc-unsplash.jpg"]
     }
   ]
 }

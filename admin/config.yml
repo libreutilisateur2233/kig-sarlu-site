@@ -29,4 +29,10 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "Prix (texte libre, ex: \"850 000 GNF/mois\")", name: "price", widget: "string" }
-              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Surface (ex: \"150 m²\")", name: "surface", widget: "string", required: false }
+              - { label: "Nombre de chambres / pièces", name: "chambres", widget: "string", required: false }
+              - { label: "Équipements (ex: \"Cour clôturée, eau, électricité\")", name: "equipements", widget: "string", required: false }
+              - label: "Photos (la première est utilisée comme vignette)"
+                name: "photos"
+                widget: "list"
+                field: { label: "Photo", name: "image", widget: "image" }
