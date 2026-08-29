@@ -1,48 +1,62 @@
 {
   "properties": [
     {
-      "type": "location",
-      "tag": "À louer",
-      "title": "Villa 4 pièces — Wassako",
-      "desc": "Cour clôturée, proche axe principal.",
+      "equipements": "Cour clôturée, eau courante, électricité",
+      "photos": [
+        "/images/listings/villa-wassako.jpg"
+      ],
       "price": "Loyer sur demande",
       "surface": "150 m²",
       "chambres": "4",
-      "equipements": "Cour clôturée, eau courante, électricité",
-      "photos": ["/images/listings/villa-wassako.jpg"]
+      "desc": "Cour clôturée, proche axe principal.",
+      "title": "Villa 4 pièces — Wassako",
+      "type": "location",
+      "tag": "À louer"
     },
     {
-      "type": "vente",
-      "tag": "À vendre",
-      "title": "Parcelle titrée — 400 m²",
-      "desc": "Titre foncier vérifié, quartier résidentiel.",
+      "equipements": "Titre foncier vérifié",
+      "photos": [
+        "/images/listings/parcelle-titree.jpg"
+      ],
       "price": "Prix sur demande",
       "surface": "400 m²",
       "chambres": "",
-      "equipements": "Titre foncier vérifié",
-      "photos": ["/images/listings/parcelle-titree.jpg"]
+      "desc": "Titre foncier vérifié, quartier résidentiel.",
+      "title": "Parcelle titrée — 400 m²",
+      "type": "vente",
+      "tag": "À vendre"
     },
     {
-      "type": "gestion",
-      "tag": "Gestion",
-      "title": "Local commercial — Centre-ville",
-      "desc": "Idéal boutique ou bureau, forte visibilité.",
+      "equipements": "Forte visibilité, accès direct rue",
+      "photos": [
+        "/images/listings/local-commercial.jpg"
+      ],
       "price": "Loyer sur demande",
       "surface": "45 m²",
       "chambres": "",
-      "equipements": "Forte visibilité, accès direct rue",
-      "photos": ["/images/listings/local-commercial.jpg"]
+      "desc": "Idéal boutique ou bureau, forte visibilité.",
+      "title": "Local commercial — Centre-ville",
+      "type": "gestion",
+      "tag": "Gestion"
     },
     {
-      "type": "vente",
-      "tag": "À vendre",
-      "title": "Maison 5 pièces — Quartier Almamya",
-      "desc": "Maison familiale avec cour, à proximité du marché central.",
+      "equipements": "Cour, proche marché central",
+      "photos": [
+        "/images/listings/frames-for-your-heart-mr1cidduglc-unsplash.jpg"
+      ],
       "price": "120 000 000 GNF",
       "surface": "200 m²",
       "chambres": "5",
-      "equipements": "Cour, proche marché central",
-      "photos": ["/images/listings/frames-for-your-heart-mr1cidduglc-unsplash.jpg"]
+      "desc": "Maison familiale avec cour, à proximité du marché central.",
+      "title": "Maison 5 pièces — Quartier Almamya",
+      "type": "vente",
+      "tag": "À vendre"
+    },
+    {
+      "type": "location",
+      "photos": [
+        "/images/listings/local-commercial.jpg"
+      ]
     }
   ]
 }
