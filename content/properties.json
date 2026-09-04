@@ -56,6 +56,19 @@
       "photos": [
         "/images/listings/214671.jpg"
       ]
+    },
+    {
+      "equipements": "Cour clôturée,eau,électricité ",
+      "photos": [
+        "/images/listings/img-20260902-wa0002.jpg"
+      ],
+      "price": "Sur demande ",
+      "surface": "500",
+      "chambres": "3",
+      "desc": "Clôturé , eau,électricité ",
+      "title": "A louer ",
+      "type": "location",
+      "tag": "A louer  quartier KOMONIKO "
     }
   ]
 }
