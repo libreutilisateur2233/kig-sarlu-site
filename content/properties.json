@@ -69,6 +69,16 @@
       "title": "A louer ",
       "type": "location",
       "tag": "A louer  quartier KOMONIKO "
+    },
+    {
+      "type": "vente",
+      "tag": "8 Parcelles",
+      "price": "25 000 000 Gnf",
+      "surface": "600",
+      "chambres": "8 parcelles ",
+      "title": "A vendre ",
+      "desc": "Quartier Saman koura ",
+      "photos": []
     }
   ]
 }
