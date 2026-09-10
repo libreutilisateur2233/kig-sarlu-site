@@ -79,6 +79,12 @@
       "title": "A vendre ",
       "desc": "Quartier Saman koura ",
       "photos": []
+    },
+    {
+      "type": "location",
+      "photos": [
+        "/images/listings/1000027843.png"
+      ]
     }
   ]
 }
